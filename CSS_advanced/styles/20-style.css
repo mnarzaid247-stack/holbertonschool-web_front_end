@@ -220,4 +220,16 @@ h6 {
   font-weight: var(--font-weight-bold);
 }
 
-.
+.footer {
+  padding: var(--footer-padding);
+}
+
+/* ------------------------------------------------ */
+/* Clearfix rule for rows */
+/* ------------------------------------------------ */
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
