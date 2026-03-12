@@ -22,7 +22,7 @@ html {
 
 body {
   color: var(--text-color);
-  font-family: var(--font-family-base);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: var(--font-size-medium);
 }
 
