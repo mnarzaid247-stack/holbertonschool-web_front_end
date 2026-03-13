@@ -72,7 +72,9 @@ img {
   --nav-item-link-hover: var(--color-primary);
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -219,7 +221,8 @@ ul.row {
   color: var(--text-color);
 }
 
-.social-link {display: block;
+.social-link {
+  display: block;
 }
 
 .social-link svg {
@@ -246,17 +249,4 @@ h5,
 h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-}
-
-
-.footer-address {
-  color: var(--text-color);
-}
-
-.social-link {
-  display: block;
-}
-
-.social-link svg {
-  fill: var(--text-color);
 }
