@@ -247,3 +247,16 @@ h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
+
+
+.footer-address {
+  color: var(--text-color);
+}
+
+.social-link {
+  display: block;
+}
+
+.social-link svg {
+  fill: var(--text-color);
+}
